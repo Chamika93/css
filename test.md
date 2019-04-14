@@ -1,3 +1,16 @@
+# **CSS CHEAT SHEET**
+
+## **Adding Fonts**
+```
+body{
+      font-family: "Lato",sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+  }
+ ```
+add it to the body so it will inherit to all the other elements inside body
+*some parameters like padding is not going to inherit*
+
 *{
 Universal Selector applies to every element
 }
