@@ -63,4 +63,8 @@ https://www.w3schools.com/cssref/pr_background-position.asp
 
 https://css-tricks.com/almanac/properties/b/background-position/
 
+The clip-path property in CSS allows you to specify a specific region of an element to display, rather than showing the complete area.
 
+```
+ clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
+```
