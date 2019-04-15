@@ -49,13 +49,16 @@ background-size: auto|length|cover|contain|initial|inherit;
 https://css-tricks.com/almanac/properties/b/background-size/
 
 https://www.w3schools.com/cssref/css3_pr_background-size.asp
+
+this sets linear-gradient towards bottom right corner
 ```
 background-image: linear-gradient(to right bottom,#7ed56fcb,#28b485b2),url(../img/hero.jpg); 
 ```
-this sets linear-gradient towards bottom right corner
 
 The background-position property sets the starting position of a background image.
-
+```
+background-position: value;
+```
 https://www.w3schools.com/cssref/pr_background-position.asp
 
 https://css-tricks.com/almanac/properties/b/background-position/
