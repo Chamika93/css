@@ -40,7 +40,7 @@ box-sizing:property allows us to include the padding and border in an element's 
 
 height: vh means the percentage of viewport hieght ex: 95vh means 95% view port height
 
-##**Background**
+## **Background**
 
 The background-size property sets the size of the background image.
 ```
