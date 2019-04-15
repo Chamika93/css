@@ -26,8 +26,22 @@ body{
       font-size: 16px;
   }
  ```
+ ## **Size , Height , width**
+ 
+By default, the width and height of an element is calculated like this:
+
+width + padding + border = actual width of an element
+height + padding + border = actual height of an element
+
 box-sizing:property allows us to include the padding and border in an element's total width and height.
+```
+ box-sizing: border-box;
+```
+
 height: vh means the percentage of viewport hieght ex: 95vh means 95% view port height
+
+
+
 background-size: cover; this will fi the element in the viewport
 background-image: linear-gradient(to right bottom,#7ed56fcb,#28b485b2),url(../img/hero.jpg); This set the gradient to bottom right corner
 
