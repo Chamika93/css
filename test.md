@@ -40,9 +40,14 @@ box-sizing:property allows us to include the padding and border in an element's 
 
 height: vh means the percentage of viewport hieght ex: 95vh means 95% view port height
 
+##**Background**
+```
+background-size: auto|length|cover|contain|initial|inherit;
+```
+https://css-tricks.com/almanac/properties/b/background-size/
 
+https://www.w3schools.com/cssref/css3_pr_background-size.asp
 
-background-size: cover; this will fi the element in the viewport
 background-image: linear-gradient(to right bottom,#7ed56fcb,#28b485b2),url(../img/hero.jpg); This set the gradient to bottom right corner
 
 padding is not get inherited
