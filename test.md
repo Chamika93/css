@@ -68,3 +68,17 @@ The clip-path property in CSS allows you to specify a specific region of an elem
 ```
  clip-path: polygon(0 0,100% 0,100% 80%,0 100%);
 ```
+## **Positioning**
+
+When u set the position of the element to absolute u need to set the top,left,right values to set the position. it positioned in reference to its parent relative element.
+
+We need to set the tranform: translate to get the position in relative to child element
+
+```
+.text-box{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50 )
+}
+```
